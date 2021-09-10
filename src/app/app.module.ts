@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { AccountsComponent } from './components/accounts/accounts.component';
+import { AccountEditComponent } from './components/account-edit/account-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    AccountsComponent,
+    AccountEditComponent
   ],
   imports: [
     BrowserModule,
